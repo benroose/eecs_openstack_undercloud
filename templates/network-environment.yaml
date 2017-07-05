@@ -1,0 +1,95 @@
+#This file is an example of an environment file for defining the isolated
+#networks and related parameters.
+resource_registry:
+  # Network Interface templates to use (these files must exist)
+  OS::TripleO::Controller::Net::SoftwareConfig:
+    /home/stack/templates/nic-configs/controller.yaml
+  OS::TripleO::Compute::Net::SoftwareConfig:
+    /home/stack/templates/nic-configs/compute.yaml
+
+parameter_defaults:
+  # This section is where deployment-specific configuration is done
+  # CIDR subnet mask length for provisioning network
+  ControlPlaneSubnetCidr: '24'
+  # Gateway router for the provisioning network (or Undercloud IP)
+  ControlPlaneDefaultRoute: 192.168.249.41
+  EC2MetadataIp: 192.168.249.41  # Generally the IP of the Undercloud
+  # Customize the IP subnets to match the local environment
+  InternalApiNetCidr: 192.168.252.0/24
+  StorageNetCidr: 192.168.254.0/24
+  #StorageMgmtNetCidr: 192.168.255.0/24
+  TenantNetCidr: 192.168.253.0/24
+  ExternalNetCidr: 192.168.251.0/24
+  # Customize the VLAN IDs to match the local environment
+  InternalApiNetworkVlanID: 3252
+  StorageNetworkVlanID: 3254
+  #StorageMgmtNetworkVlanID: 3255
+  TenantNetworkVlanID: 3253
+  ExternalNetworkVlanID: 973
+  # Customize the IP ranges on each network to use for static IPs and VIPs
+  InternalApiAllocationPools: [{'start': '192.168.252.40', 'end': '192.168.252.200'}]
+  StorageAllocationPools: [{'start': '192.168.254.40', 'end': '192.168.254.200'}]
+  #StorageMgmtAllocationPools: [{'start': '192.168.255.40', 'end': '192.168.255.200'}]
+  TenantAllocationPools: [{'start': '192.168.253.40', 'end': '192.168.253.200'}]
+  # Leave room if the external network is also used for floating IPs
+  ExternalAllocationPools: [{'start': '192.168.251.50', 'end': '192.168.251.59'}]
+  # Gateway router for the external network
+  ExternalInterfaceDefaultRoute: 192.168.251.1
+  PublicVirtualFixedIPs: [{'ip_address':'192.168.251.50'}]
+  # Uncomment if using the Management Network (see network-management.yaml)
+  ManagementNetCidr: 192.168.250.0/24
+  ManagementNetworkVlanID: 972
+  ManagementAllocationPools: [{'start': '192.168.250.50', 'end': '192.168.250.69'}]
+  # Use either this parameter or ControlPlaneDefaultRoute in the NIC templates
+  ManagementInterfaceDefaultRoute: 192.168.250.1
+  # Set to empty string to enable multiple external networks or VLANs
+  NeutronExternalNetworkBridge: "''"
+  # The tunnel type for the tenant network (vxlan or gre). Set to '' to disable tunneling.
+  NeutronTunnelTypes: 'vxlan'
+  NeutronBridgeMappings: 'datacentre:br-ex,prov:br-prov'
+  NeutronNetworkVLANRanges: 'datacentre:1:4092,prov:3249:3249'
+  NeutronFlatNetworks: 'datacentre,prov'
+  # Customize bonding options, e.g. "mode=4 lacp_rate=1 updelay=1000 miimon=100"
+  BondInterfaceOvsOptions: "mode=4 lacp_rate=1 updelay=1000 miimon=100"
+  #This should be commented out unless updating network configs
+  #Be very careful with this
+  #NetworkDeploymentActions: ['CREATE','UPDATE']
+  ServiceNetMap:
+    ApacheNetwork: internal_api
+    NeutronTenantNetwork: tenant
+    CeilometerApiNetwork: internal_api
+    AodhApiNetwork: internal_api
+    GnocchiApiNetwork: internal_api
+    MongodbNetwork: internal_api
+    CinderApiNetwork: internal_api
+    CinderIscsiNetwork: storage
+    GlanceApiNetwork: storage
+    GlanceRegistryNetwork: internal_api
+    IronicApiNetwork: ctlplane
+    IronicNetwork: ctlplane
+    KeystoneAdminApiNetwork: ctlplane # allows undercloud to config endpoints
+    KeystonePublicApiNetwork: internal_api
+    ManilaApiNetwork: internal_api
+    NeutronApiNetwork: internal_api
+    HeatApiNetwork: internal_api
+    HeatApiCfnNetwork: internal_api
+    HeatApiCloudwatchNetwork: internal_api
+    NovaApiNetwork: internal_api
+    NovaColdMigrationNetwork: ctlplane
+    NovaMetadataNetwork: internal_api
+    NovaVncProxyNetwork: internal_api
+    NovaLibvirtNetwork: internal_api
+    SwiftStorageNetwork: storage #Change from Storage MGMT
+    SwiftProxyNetwork: storage
+    SaharaApiNetwork: internal_api
+    HorizonNetwork: internal_api
+    MemcachedNetwork: internal_api
+    RabbitmqNetwork: internal_api
+    RedisNetwork: internal_api
+    MysqlNetwork: internal_api
+    CephClusterNetwork: storage #Change from Storage MGMT
+    CephMonNetwork: storage
+    CephRgwNetwork: storage
+    PublicNetwork: external
+    OpendaylightApiNetwork: internal_api
+    CephStorageHostnameResolveNetwork: storage

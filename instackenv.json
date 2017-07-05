@@ -1,0 +1,47 @@
+{
+  "arch": "x86_64",
+  "nodes": [
+    {
+      "name": "controller1",
+      "pm_addr": "192.168.250.91",
+      "pm_user": "ADMIN",
+      "pm_password": "ADMIN",
+      "pm_type": "pxe_ipmitool"
+    },
+    {
+      "name": "controller2",
+      "pm_addr": "192.168.250.92",
+      "pm_user": "ADMIN",
+      "pm_password": "ADMIN",
+      "pm_type": "pxe_ipmitool"
+    },
+    {
+      "name": "controller3",
+      "pm_addr": "192.168.250.93",
+      "pm_user": "ADMIN",
+      "pm_password": "ADMIN",
+      "pm_type": "pxe_ipmitool"
+    },
+    {
+      "name": "compute1",
+      "pm_addr": "192.168.250.94",
+      "pm_user": "ADMIN",
+      "pm_password": "ADMIN",
+      "pm_type": "pxe_ipmitool"
+    },
+    {
+      "name": "compute2",
+      "pm_addr": "192.168.250.95",
+      "pm_user": "ADMIN",
+      "pm_password": "ADMIN",
+      "pm_type": "pxe_ipmitool"
+    },
+    {
+      "name": "compute3",
+      "pm_addr": "192.168.250.96",
+      "pm_user": "ADMIN",
+      "pm_password": "ADMIN",
+      "pm_type": "pxe_ipmitool"
+    }
+  ]
+}

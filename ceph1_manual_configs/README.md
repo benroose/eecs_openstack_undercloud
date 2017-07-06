@@ -1,4 +1,4 @@
-#CEPH STORAGE CONFIG
+# CEPH STORAGE CONFIG
 
 These configuration files have been pulled from the ceph1 node
 

@@ -1,0 +1,986 @@
+Removing the current plan files
+Uploading new plan files
+Started Mistral Workflow. Execution ID: 25e148b5-b044-4d02-bec6-53fc05bd28dc
+Plan updated
+Deploying templates in the directory /tmp/tripleoclient-J76EHA/tripleo-heat-templates
+Started Mistral Workflow. Execution ID: 4cdb6bd6-abc2-405b-b4e5-bf774283798b
+2017-07-06 21:50:33Z [Networks]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:33Z [overcloud-Networks-apcbuitw2mlj]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:50:33Z [DefaultPasswords]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:33Z [ServiceNetMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:33Z [overcloud-Networks-apcbuitw2mlj]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:50:34Z [ServiceNetMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:34Z [Networks]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:34Z [DefaultPasswords]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:35Z [StorageMgmtVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:35Z [PublicVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:35Z [InternalApiVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:35Z [RedisVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:36Z [overcloud-RedisVirtualIP-unmp5bfmhnuf]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:50:36Z [StorageVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:36Z [overcloud-RedisVirtualIP-unmp5bfmhnuf]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:50:37Z [StorageVirtualIP]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:37Z [StorageMgmtVirtualIP]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:37Z [RedisVirtualIP]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:37Z [PublicVirtualIP]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:37Z [InternalApiVirtualIP]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:37Z [VipMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:39Z [VipMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:39Z [EndpointMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:40Z [EndpointMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:40Z [ComputeServiceChain]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:41Z [overcloud-ComputeServiceChain-rrisp3p3o5cr]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:50:41Z [ControllerServiceChain]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:42Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:44Z [ObjectStorageServiceChain]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:44Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:50:44Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:44Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain]: UPDATE_COMPLETE  The Resource ServiceChain requires replacement.
+2017-07-06 21:50:44Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:44Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:45Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain]: UPDATE_COMPLETE  The Resource ServiceChain requires replacement.
+2017-07-06 21:50:45Z [CephStorageServiceChain]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:45Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:50:45Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:45Z [overcloud-CephStorageServiceChain-riwmbsj47nkr]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:50:45Z [BlockStorageServiceChain]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:46Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:46Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:46Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:46Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain]: UPDATE_COMPLETE  The Resource ServiceChain requires replacement.
+2017-07-06 21:50:46Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:46Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:46Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:46Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain]: UPDATE_COMPLETE  The Resource ServiceChain requires replacement.
+2017-07-06 21:50:46Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:47Z [overcloud-BlockStorageServiceChain-a3fovectqa6v]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:50:47Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:47Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:48Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain]: CREATE_IN_PROGRESS  Stack CREATE started
+2017-07-06 21:50:48Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.3]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:48Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain]: CREATE_IN_PROGRESS  Stack CREATE started
+2017-07-06 21:50:49Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.2]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:49Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.10]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:49Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.19]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:49Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.4]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:49Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.14]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:49Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.4]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:49Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.3]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:50Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:50:50Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain]: UPDATE_COMPLETE  The Resource ServiceChain requires replacement.
+2017-07-06 21:50:50Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:50Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:50Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.13]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:50Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.8]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:50Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.18]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:50Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.6]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:51Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.11]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:51Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.9]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:51Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.6]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:51Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:51Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.0]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:51Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:51Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.16]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:52Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.2]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:52Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.10]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:52Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.0]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:52Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.7]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:52Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.9]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:53Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain]: CREATE_IN_PROGRESS  Stack CREATE started
+2017-07-06 21:50:53Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.21]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:53Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.15]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:53Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.5]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:53Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.12]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:53Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.7]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:53Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2017-07-06 21:50:53Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.1]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:53Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.11]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:54Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.0]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:54Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.5]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:54Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.6]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:54Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.10]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:54Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain]: CREATE_IN_PROGRESS  Stack CREATE started
+2017-07-06 21:50:54Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.12]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:54Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.10]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:54Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.4]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:54Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.7]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:54Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.8]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:54Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.7]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:54Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.20]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:54Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.3]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:54Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.17]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:54Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.0]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:54Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.8]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:55Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.0]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:55Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.2]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.9]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.5]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.1]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:55Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.1]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.10]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain.11]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.14]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain]: CREATE_COMPLETE  Stack CREATE completed successfully
+2017-07-06 21:50:55Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.5]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.4]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.19]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.6]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.16]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.9]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.9]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.21]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.15]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.5]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.20]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:55Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.2]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:56Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.11]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:56Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.3]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:56Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.13]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:56Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.18]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:56Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.11]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:56Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.0]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:56Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.2]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:56Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.17]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:56Z [overcloud-CephStorageServiceChain-riwmbsj47nkr.ServiceChain]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:56Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.1]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:56Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.8]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:56Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.11]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:56Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.5]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:56Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.8]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:57Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.1]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:57Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.10]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:57Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.3]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:57Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.12]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:57Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.7]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:57Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain.8]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:57Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain]: CREATE_COMPLETE  Stack CREATE completed successfully
+2017-07-06 21:50:57Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.2]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:58Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.1]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:58Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.7]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:58Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.4]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:59Z [overcloud-ComputeServiceChain-rrisp3p3o5cr.ServiceChain]: CREATE_COMPLETE  state changed
+2017-07-06 21:50:59Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.6]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:59Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.6]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:59Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.9]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:50:59Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.4]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:00Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.0]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:00Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.3]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:00Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.7]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:01Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.5]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:01Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.2]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:01Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.0]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:01Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.11]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:01Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.1]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:01Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.8]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:02Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.3]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:02Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.12]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:02Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.9]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:02Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.3]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:02Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.11]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:02Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.1]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:02Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.8]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:02Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.5]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:02Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.4]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:03Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.10]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:03Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.10]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:03Z [overcloud-CephStorageServiceChain-riwmbsj47nkr]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:51:03Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.2]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:03Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.6]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:03Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.6]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:03Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain.9]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:03Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain]: CREATE_COMPLETE  Stack CREATE completed successfully
+2017-07-06 21:51:03Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.4]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:03Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain.7]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:03Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain]: CREATE_COMPLETE  Stack CREATE completed successfully
+2017-07-06 21:51:03Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3.ServiceChain]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:04Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain]: CREATE_IN_PROGRESS  Stack CREATE started
+2017-07-06 21:51:04Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.7]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:04Z [CephStorageServiceChain]: UPDATE_COMPLETE  state changed
+2017-07-06 21:51:04Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw]: DELETE_IN_PROGRESS  Stack DELETE started
+2017-07-06 21:51:04Z [overcloud-BlockStorageServiceChain-a3fovectqa6v.ServiceChain]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:04Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.1]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:04Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk]: DELETE_IN_PROGRESS  Stack DELETE started
+2017-07-06 21:51:05Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.61]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:05Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.4]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:05Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.8]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:05Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.10]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:05Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.10]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:06Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.7]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:06Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.1]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:06Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.65]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:06Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.5]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:06Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.11]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:06Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.4]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:06Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.12]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:06Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.0]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:06Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.8]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:07Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.6]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:07Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.72]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:07Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.11]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:07Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.3]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:07Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.54]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:07Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.7]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:08Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.5]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:08Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.35]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:08Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.9]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:08Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.2]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:08Z [overcloud-ComputeServiceChain-rrisp3p3o5cr]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:51:09Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.55]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:09Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.11]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:09Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.6]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:09Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.2]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:09Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.58]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:09Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.9]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:09Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.0]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:09Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.67]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:09Z [overcloud-BlockStorageServiceChain-a3fovectqa6v-ServiceChain-azupum73drmk.3]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:09Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.1]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:09Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.4]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:10Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.45]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:10Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.7]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:10Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3-ServiceChain-dsueqk2fgvmw.10]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:10Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.70]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:10Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.46]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:10Z [ComputeServiceChain]: UPDATE_COMPLETE  state changed
+2017-07-06 21:51:11Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.20]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:11Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.8]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:11Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.69]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:12Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.43]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:12Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.23]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:12Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.10]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:12Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.19]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:13Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.63]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:13Z [overcloud-ObjectStorageServiceChain-ch4dvye4dkh3]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:51:13Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.15]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:13Z [overcloud-BlockStorageServiceChain-a3fovectqa6v]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:51:13Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.14]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:13Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.38]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:14Z [ObjectStorageServiceChain]: UPDATE_COMPLETE  state changed
+2017-07-06 21:51:14Z [BlockStorageServiceChain]: UPDATE_COMPLETE  state changed
+2017-07-06 21:51:14Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.26]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:14Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.39]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:14Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.17]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:15Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.64]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:15Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.13]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:15Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.73]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:15Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.32]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:15Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.50]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:16Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.56]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:16Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.37]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:16Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.51]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:16Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.60]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:16Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.21]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:17Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.49]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:17Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.31]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:17Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.22]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:17Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.12]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:18Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.66]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:18Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.71]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:18Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.33]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:18Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.57]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:18Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.24]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:18Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.74]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:19Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.68]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:19Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.4]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:19Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.16]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:19Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.59]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:20Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.30]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:20Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.0]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:20Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.18]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:20Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.41]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:21Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.53]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:21Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.2]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:21Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.5]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:21Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.62]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:21Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.40]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:21Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.44]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:21Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.6]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:22Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.52]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:22Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.3]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:22Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.28]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:22Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.47]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:23Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.42]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:24Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.27]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:24Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.34]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:24Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.36]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:24Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.9]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:24Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.25]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:25Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.29]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:25Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.48]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:51:25Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.51]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:25Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.44]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:25Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.7]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:25Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.3]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.21]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.40]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.64]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.8]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.49]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.18]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.28]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.46]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.65]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.4]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.22]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.34]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.27]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.11]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.12]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.66]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.35]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.24]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.55]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.58]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.67]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.57]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.1]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.42]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.71]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.74]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.70]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.2]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.68]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.19]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.16]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.59]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.45]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.20]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.0]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.69]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.43]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.41]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.53]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:26Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.23]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.5]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.10]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.48]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.72]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.37]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.30]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.63]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.15]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.14]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.52]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.38]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.26]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.39]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.17]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.62]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.61]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.13]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.47]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.73]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.60]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.36]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.32]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.50]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.9]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.56]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.25]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.31]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.33]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.6]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:27Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.54]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:28Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain.29]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:28Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain]: CREATE_COMPLETE  Stack CREATE completed successfully
+2017-07-06 21:51:30Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3.ServiceChain]: CREATE_COMPLETE  state changed
+2017-07-06 21:51:31Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo]: DELETE_IN_PROGRESS  Stack DELETE started
+2017-07-06 21:51:31Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.71]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:31Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.57]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:31Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.7]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:31Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.59]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:31Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.74]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:31Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.70]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:31Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.1]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:32Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.34]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:32Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.11]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:32Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.40]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:32Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.51]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:32Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.27]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:32Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.26]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:32Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.45]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:32Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.31]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:32Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.49]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:33Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.10]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:33Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.52]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:33Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.2]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:33Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.36]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:33Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.67]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:34Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.30]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:34Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.50]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:34Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.41]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:34Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.33]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:34Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.6]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:34Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.5]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:34Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.0]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:35Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.38]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:35Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.73]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:35Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.56]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:35Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.13]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:35Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.42]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:35Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.72]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:35Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.66]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:35Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.24]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:35Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.68]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:35Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.25]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:36Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.8]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:36Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.16]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:36Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.62]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:36Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.37]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:36Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.47]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:37Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.14]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:37Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.61]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:37Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.55]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:37Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.39]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:37Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.3]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:37Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.15]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:38Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.9]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:38Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.19]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:38Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.20]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:38Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.69]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:38Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.28]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:38Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.32]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:38Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.54]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:39Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.44]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:39Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.17]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:39Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.21]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:39Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.23]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:39Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.48]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:39Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.35]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:40Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.22]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:40Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.18]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:40Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.12]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:40Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.29]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:40Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.63]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:40Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.53]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:40Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.4]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:40Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.46]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.60]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.65]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.43]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.64]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.58]: DELETE_IN_PROGRESS  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.21]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.63]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.37]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.71]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.67]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.24]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.9]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.48]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:41Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.15]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.70]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.68]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.17]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.38]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.7]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.23]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.59]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.18]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.8]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.16]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.25]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.51]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.1]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.34]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.40]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.45]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.47]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.55]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.50]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.27]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.26]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:42Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.39]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.3]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.20]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.31]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.49]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.10]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.52]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.41]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.12]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.69]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.28]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:43Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3-ServiceChain-gllz7w3ctumo.32]: DELETE_COMPLETE  state changed
+2017-07-06 21:51:45Z [overcloud-ControllerServiceChain-bkpmi6kw6xm3]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:51:45Z [ControllerServiceChain]: UPDATE_COMPLETE  state changed
+2017-07-06 21:51:54Z [BlockStorage]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:51:54Z [Compute]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:51:57Z [overcloud-Compute-q7rmrtps43zz]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:51:57Z [CephStorage]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:51:57Z [overcloud-Compute-q7rmrtps43zz.1]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:51:58Z [Controller]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:51:59Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:51:59Z [overcloud-Compute-q7rmrtps43zz.2]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:00Z [overcloud-Controller-qqm6pmt7ugdx]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:52:00Z [ObjectStorage]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:00Z [overcloud-Compute-q7rmrtps43zz.0]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:00Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:52:01Z [overcloud-Controller-qqm6pmt7ugdx.2]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:02Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:52:02Z [CephStorage]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:02Z [BlockStorage]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:02Z [CephStorageIpListMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:02Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:52:02Z [overcloud-Controller-qqm6pmt7ugdx.1]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:03Z [overcloud-CephStorageIpListMap-akig6xayg5ec]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:52:03Z [BlockStorageIpListMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:03Z [overcloud-BlockStorageIpListMap-n3wvr3jih672]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:52:03Z [overcloud-CephStorageIpListMap-akig6xayg5ec]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:52:04Z [overcloud-BlockStorageIpListMap-n3wvr3jih672]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:52:04Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:52:04Z [overcloud-Controller-qqm6pmt7ugdx.0]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:05Z [ObjectStorage]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:05Z [CephStorageIpListMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:05Z [BlockStorageIpListMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:05Z [ObjectStorageIpListMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:05Z [overcloud-ObjectStorageIpListMap-of23q7bph3be]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:52:05Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:52:05Z [overcloud-ObjectStorageIpListMap-of23q7bph3be]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:52:06Z [ObjectStorageIpListMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:07Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:07Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:08Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:08Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:08Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:08Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:09Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NodeUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:09Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:09Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.UpdateConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:09Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:09Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.UpdateConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:09Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NodeUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:10Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:10Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:10Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:10Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:10Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:10Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:11Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:11Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:11Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:11Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:11Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.UpdateConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:11Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:11Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NodeUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:11Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:12Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:12Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:12Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:12Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:13Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:13Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:13Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:14Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.TenantPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:14Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:14Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:14Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.StoragePort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:14Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:14Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.InternalApiPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:14Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:14Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:14Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.InternalApiPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:14Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:15Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:15Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:15Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.ManagementPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:15Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.ExternalPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:15Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.StoragePort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:15Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.ManagementPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:15Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:15Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:15Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.UpdateConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:15Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NodeUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:16Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.TenantPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:16Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:16Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:16Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NodeUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:16Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:16Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.UpdateConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:16Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:16Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:16Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:17Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.ExternalPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:17Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:17Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.StoragePort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:17Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:17Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:17Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NodeUserData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:17Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.UpdateConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:17Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:18Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:18Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:18Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:18Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.InternalApiPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:19Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.ExternalPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:19Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:19Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ManagementPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:19Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:19Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:19Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NetIpMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:19Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:19Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.TenantPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:20Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:20Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NetworkConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:20Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:20Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:20Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:21Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NovaComputeConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:21Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NovaComputeConfig]: UPDATE_COMPLETE  The Resource NovaComputeConfig requires replacement.
+2017-07-06 21:52:21Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.ManagementPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:21Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:21Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:21Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NovaComputeConfig]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:52:21Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:21Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NetworkConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:22Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:22Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NetIpMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:22Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:22Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:22Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NovaComputeConfig]: CREATE_COMPLETE  state changed
+2017-07-06 21:52:22Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NovaComputeConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:22Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NovaComputeConfig]: UPDATE_COMPLETE  The Resource NovaComputeConfig requires replacement.
+2017-07-06 21:52:22Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NovaComputeDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:22Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:22Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NovaComputeConfig]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:52:23Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:23Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:23Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.InternalApiPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:23Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:23Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ManagementPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:24Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NovaComputeConfig]: CREATE_COMPLETE  state changed
+2017-07-06 21:52:24Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NovaComputeDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:24Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ExternalPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:24Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.TenantPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:24Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.StoragePort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:24Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NetIpMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:25Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:25Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:25Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NetworkConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:25Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NovaComputeConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:25Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NovaComputeConfig]: UPDATE_COMPLETE  The Resource NovaComputeConfig requires replacement.
+2017-07-06 21:52:25Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ManagementPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:25Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NovaComputeConfig]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:52:25Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ManagementPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:25Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.StoragePort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:25Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.TenantPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:25Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:25Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.InternalApiPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:25Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:26Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NovaComputeConfig]: CREATE_COMPLETE  state changed
+2017-07-06 21:52:26Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.TenantPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:26Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:26Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NovaComputeDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:26Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.InternalApiPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:26Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ExternalPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:27Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ExternalPort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:27Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.StoragePort]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:27Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:27Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:28Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NetIpMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:28Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:28Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:28Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NetworkConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:28Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NodeTLSCAData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:29Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NetworkConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:29Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NodeTLSCAData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:29Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NodeTLSData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:29Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NetIpMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:29Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NetIpMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:29Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NetworkConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:29Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NodeTLSCAData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:30Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NodeTLSCAData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:30Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NodeTLSData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:30Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ControllerConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:30Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ControllerConfig]: UPDATE_COMPLETE  The Resource ControllerConfig requires replacement.
+2017-07-06 21:52:31Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NodeTLSCAData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:31Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ControllerConfig]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:52:31Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NodeTLSData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:31Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NodeTLSCAData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:31Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NodeTLSData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:32Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NodeTLSData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:33Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ControllerConfig]: CREATE_COMPLETE  state changed
+2017-07-06 21:52:33Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NodeTLSData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:33Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ControllerDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:33Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ControllerConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:33Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ControllerConfig]: UPDATE_COMPLETE  The Resource ControllerConfig requires replacement.
+2017-07-06 21:52:33Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ControllerConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:33Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ControllerConfig]: UPDATE_COMPLETE  The Resource ControllerConfig requires replacement.
+2017-07-06 21:52:33Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ControllerConfig]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:52:33Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ControllerConfig]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:52:34Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ControllerConfig]: CREATE_COMPLETE  state changed
+2017-07-06 21:52:34Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ControllerDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:34Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ControllerConfig]: CREATE_COMPLETE  state changed
+2017-07-06 21:52:34Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ControllerDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:46Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NovaComputeDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment d2f53a2f-5e9e-4df8-9ca4-558886aefac9 succeeded
+2017-07-06 21:52:46Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NovaComputeDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:46Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NodeTLSCAData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:46Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:46Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.ComputeExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:47Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NodeTLSCAData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:47Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:47Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.ComputeExtraConfigPre]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:47Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:48Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:49Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NovaComputeDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment c701d303-a028-4dc4-b672-e86777152241 succeeded
+2017-07-06 21:52:49Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NovaComputeDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 93522d5f-5d83-4856-b6d1-24e471878ea0 succeeded
+2017-07-06 21:52:50Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NovaComputeDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:50Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.ComputeExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:50Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:50Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NodeTLSCAData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:50Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NovaComputeDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:50Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:50Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NodeTLSCAData]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:51Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.ComputeExtraConfigPre]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:51Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:51Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.ComputeExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:52Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NodeTLSCAData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:52Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:52Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:52Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NodeTLSCAData]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:52Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.ComputeExtraConfigPre]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:52Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:52:53Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:53Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:52:57Z [overcloud-Compute-q7rmrtps43zz-2-zvqcs2oych74]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:52:57Z [overcloud-Compute-q7rmrtps43zz.2]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:01Z [overcloud-Compute-q7rmrtps43zz-0-uzrpoxbmelv2]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:02Z [overcloud-Compute-q7rmrtps43zz-1-tnhfnurlv2q3]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:02Z [overcloud-Compute-q7rmrtps43zz.1]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:02Z [overcloud-Compute-q7rmrtps43zz.0]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:03Z [overcloud-Compute-q7rmrtps43zz]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:03Z [Compute]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:06Z [ComputeIpListMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:06Z [overcloud-ComputeIpListMap-ir4wzf4r4vhk]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:53:06Z [overcloud-ComputeIpListMap-ir4wzf4r4vhk]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:07Z [ComputeIpListMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:23Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ControllerDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 6817cee0-db0a-4bca-9358-ad2dbf10fff3 succeeded
+2017-07-06 21:53:24Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ControllerDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:24Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:24Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:25Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:25Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.ControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:25Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:25Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ControllerDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 85dfd40e-d74a-4ba2-8d6e-ea4763caffa4 succeeded
+2017-07-06 21:53:25Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ControllerDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:26Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:26Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:26Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:27Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.ControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:27Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:27Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:28Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:31Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ControllerDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 563fd75b-02bd-4a96-ad5c-1f3f2a8336a8 succeeded
+2017-07-06 21:53:31Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ControllerDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:31Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:31Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:32Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:32Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.ControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:32Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:33Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:37Z [overcloud-Controller-qqm6pmt7ugdx-2-j3bvnyaf44jw]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:38Z [overcloud-Controller-qqm6pmt7ugdx.2]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:39Z [overcloud-Controller-qqm6pmt7ugdx-0-amps5thve3hk]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:40Z [overcloud-Controller-qqm6pmt7ugdx.0]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:45Z [overcloud-Controller-qqm6pmt7ugdx-1-usnwzmfzqs23]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:45Z [overcloud-Controller-qqm6pmt7ugdx.1]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:45Z [overcloud-Controller-qqm6pmt7ugdx]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:46Z [Controller]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:47Z [AllNodesValidationConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:47Z [overcloud-AllNodesValidationConfig-oborhovpkm3q]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:53:47Z [overcloud-AllNodesValidationConfig-oborhovpkm3q]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:49Z [SshKnownHostsConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:49Z [hostsConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:49Z [overcloud-SshKnownHostsConfig-7vz5eay6dftg]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:53:50Z [overcloud-hostsConfig-l5gqg7cnntjg]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:53:50Z [ControllerIpListMap]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:50Z [overcloud-SshKnownHostsConfig-7vz5eay6dftg]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:50Z [overcloud-ControllerIpListMap-yj56c6czc6w4]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:53:50Z [overcloud-hostsConfig-l5gqg7cnntjg]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:50Z [overcloud-ControllerIpListMap-yj56c6czc6w4]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:51Z [SshKnownHostsConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:51Z [hostsConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:51Z [AllNodesValidationConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:51Z [ControllerIpListMap]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:51Z [CephStorageSshKnownHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:51Z [ControllerSshKnownHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:52Z [overcloud-ControllerSshKnownHostsDeployment-doj7vfchcygj]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:53:52Z [BlockStorageHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:52Z [BlockStorageSshKnownHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:52Z [overcloud-ControllerSshKnownHostsDeployment-doj7vfchcygj]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:52Z [ObjectStorageSshKnownHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:52Z [ComputeSshKnownHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:53Z [overcloud-ComputeSshKnownHostsDeployment-b5dltbqopykn]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:53:53Z [ComputeHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:53Z [overcloud-ComputeHostsDeployment-4ssy6y5hsikv]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:53:53Z [overcloud-ComputeHostsDeployment-4ssy6y5hsikv]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:53Z [overcloud-ComputeSshKnownHostsDeployment-b5dltbqopykn]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:54Z [allNodesConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:56Z [overcloud-allNodesConfig-cgc42limb7pm]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:53:56Z [ObjectStorageHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:56Z [ControllerHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:57Z [overcloud-allNodesConfig-cgc42limb7pm.allNodesConfigImpl]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:57Z [overcloud-allNodesConfig-cgc42limb7pm.allNodesConfigImpl]: UPDATE_COMPLETE  The Resource allNodesConfigImpl requires replacement.
+2017-07-06 21:53:57Z [overcloud-ControllerHostsDeployment-yzwcifyh4sgo]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:53:57Z [CephStorageHostsDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:53:58Z [overcloud-allNodesConfig-cgc42limb7pm.allNodesConfigImpl]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:53:59Z [overcloud-allNodesConfig-cgc42limb7pm.allNodesConfigImpl]: CREATE_COMPLETE  state changed
+2017-07-06 21:53:59Z [CephStorageSshKnownHostsDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:59Z [overcloud-ControllerHostsDeployment-yzwcifyh4sgo]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:53:59Z [ControllerSshKnownHostsDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:59Z [BlockStorageSshKnownHostsDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:59Z [ObjectStorageSshKnownHostsDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:59Z [ComputeSshKnownHostsDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:59Z [ControllerHostsDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:59Z [ObjectStorageHostsDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:59Z [CephStorageHostsDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:59Z [ComputeHostsDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:53:59Z [BlockStorageHostsDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:00Z [overcloud-allNodesConfig-cgc42limb7pm]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:54:01Z [allNodesConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:01Z [CephStorageAllNodesDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:01Z [ControllerAllNodesDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:01Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:54:01Z [ComputeAllNodesDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:02Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp.1]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:02Z [BlockStorageAllNodesDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:02Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:54:02Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju.1]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:02Z [ObjectStorageAllNodesDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:02Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp.2]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:02Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju.0]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:03Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju.2]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:03Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp.0]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:03Z [ObjectStorageAllNodesDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:03Z [CephStorageAllNodesDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:03Z [BlockStorageAllNodesDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:03Z [CephStorageAllNodesValidationDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:03Z [ObjectStorageAllNodesValidationDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:04Z [BlockStorageAllNodesValidationDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:05Z [CephStorageAllNodesValidationDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:05Z [ObjectStorageAllNodesValidationDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:05Z [BlockStorageAllNodesValidationDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:35Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju.2]: SIGNAL_IN_PROGRESS  Signal: deployment 9271dd5d-abad-4e37-ba44-2e21662d9cba succeeded
+2017-07-06 21:54:36Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju.2]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:40Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju.1]: SIGNAL_IN_PROGRESS  Signal: deployment a325ca92-7274-4a57-8dcc-9b76f95a448b succeeded
+2017-07-06 21:54:41Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju.0]: SIGNAL_IN_PROGRESS  Signal: deployment 0086c5ec-e233-4230-8dc0-6aeed364d151 succeeded
+2017-07-06 21:54:41Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp.1]: SIGNAL_IN_PROGRESS  Signal: deployment 74b23bae-f7d1-4384-acf1-85b7f92e7a5e succeeded
+2017-07-06 21:54:41Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju.1]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:41Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju.0]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:41Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp.1]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:41Z [overcloud-ComputeAllNodesDeployment-dxl3nq7ilsju]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:54:42Z [ComputeAllNodesDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:54:42Z [ComputeAllNodesValidationDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:54:42Z [overcloud-ComputeAllNodesValidationDeployment-p2ek33fpyp3g]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:54:43Z [overcloud-ComputeAllNodesValidationDeployment-p2ek33fpyp3g]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:54:43Z [ComputeAllNodesValidationDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:02Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp.2]: SIGNAL_IN_PROGRESS  Signal: deployment 6b8216f2-a0da-41f7-9811-d5122f4063e7 succeeded
+2017-07-06 21:55:02Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp.2]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:04Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp.0]: SIGNAL_IN_PROGRESS  Signal: deployment 7b544c16-9f53-4d43-be91-2db3652dadf9 succeeded
+2017-07-06 21:55:04Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp.0]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:05Z [overcloud-ControllerAllNodesDeployment-sbsyteyrnjxp]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:05Z [ControllerAllNodesDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:05Z [ControllerAllNodesValidationDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:06Z [overcloud-ControllerAllNodesValidationDeployment-hzknxuslbf6g]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:06Z [AllNodesDeploySteps]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:06Z [overcloud-ControllerAllNodesValidationDeployment-hzknxuslbf6g]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:07Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:08Z [ControllerAllNodesValidationDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:15Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ControllerArtifactsConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:15Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerArtifactsConfig-uknikfu3keaj]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:15Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ControllerPrePuppet]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerPrePuppet-cz4ufiacq3sg]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.BlockStorageArtifactsConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ObjectStorageConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-BlockStorageArtifactsConfig-kkfkfuqyqy4i]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerPrePuppet-cz4ufiacq3sg.ControllerPrePuppetMaintenanceModeDeployment]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerArtifactsConfig-uknikfu3keaj]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ObjectStorageConfig-kkvpxhsto5kb]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.CephStorageArtifactsConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-CephStorageArtifactsConfig-lkwa6mcjoswc]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.CephStorageConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-BlockStorageArtifactsConfig-kkfkfuqyqy4i]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.BlockStorageConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-CephStorageConfig-2lstta52k6pg]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ObjectStorageConfig-kkvpxhsto5kb]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-BlockStorageConfig-iid7dnkqrfc4]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ControllerConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-CephStorageConfig-2lstta52k6pg]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-CephStorageArtifactsConfig-lkwa6mcjoswc]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ComputeConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerConfig-v7rnrjefknmp]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeConfig-cadaasyyrrmb]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ComputeArtifactsConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeConfig-cadaasyyrrmb]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeArtifactsConfig-f242khuzs7ni]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ObjectStorageArtifactsConfig]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-BlockStorageConfig-iid7dnkqrfc4]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ObjectStorageArtifactsConfig-r55aac4bi47s]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerConfig-v7rnrjefknmp]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeArtifactsConfig-f242khuzs7ni]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ObjectStorageArtifactsConfig-r55aac4bi47s]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ControllerArtifactsConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ComputeConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.BlockStorageArtifactsConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.BlockStorageConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ComputeArtifactsConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ObjectStorageArtifactsConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ObjectStorageConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.CephStorageArtifactsConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.CephStorageConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ControllerConfig]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.BlockStorageArtifactsDeploy]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:19Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.CephStorageArtifactsDeploy]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:20Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ControllerArtifactsDeploy]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:20Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerArtifactsDeploy-zrlipt6pwk26]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:20Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ComputeArtifactsDeploy]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:20Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeArtifactsDeploy-rxyse4pm4crx]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:20Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ObjectStorageArtifactsDeploy]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:20Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerArtifactsDeploy-zrlipt6pwk26]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:20Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeArtifactsDeploy-rxyse4pm4crx]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:55:21Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.CephStorageArtifactsDeploy]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:21Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.BlockStorageArtifactsDeploy]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:21Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ObjectStorageArtifactsDeploy]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:21Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ComputeArtifactsDeploy]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:21Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ControllerArtifactsDeploy]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:21Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.CephStorageDeployment_Step1]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:21Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.BlockStorageDeployment_Step1]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:21Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ControllerDeployment_Step1]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:22Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:22Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ComputeDeployment_Step1]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:22Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2017-07-06 21:55:22Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u.0]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:22Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ObjectStorageDeployment_Step1]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:22Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w.2]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:55:22Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u.1]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:22Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u.2]: UPDATE_IN_PROGRESS  state changed
+2017-07-06 21:55:23Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w.1]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:55:23Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ObjectStorageDeployment_Step1]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:23Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.CephStorageDeployment_Step1]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:23Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.BlockStorageDeployment_Step1]: UPDATE_COMPLETE  state changed
+2017-07-06 21:55:23Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w.0]: CREATE_IN_PROGRESS  state changed
+2017-07-06 21:56:01Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u.2]: SIGNAL_IN_PROGRESS  Signal: deployment 7ac00788-591a-4379-ab16-40408881acb6 succeeded
+2017-07-06 21:56:02Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u.2]: UPDATE_COMPLETE  state changed
+2017-07-06 21:56:04Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u.1]: SIGNAL_IN_PROGRESS  Signal: deployment ede8ff14-df0f-49f2-9e19-840dd5f97da2 succeeded
+2017-07-06 21:56:04Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u.1]: UPDATE_COMPLETE  state changed
+2017-07-06 21:56:06Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u.0]: SIGNAL_IN_PROGRESS  Signal: deployment 887e7fc0-cf59-46f9-9093-7f2d455d558f succeeded
+2017-07-06 21:56:06Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u.0]: UPDATE_COMPLETE  state changed
+2017-07-06 21:56:06Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ComputeDeployment_Step1-62or5ugfep4u]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:56:07Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ComputeDeployment_Step1]: UPDATE_COMPLETE  state changed
+2017-07-06 21:56:32Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w.1]: SIGNAL_IN_PROGRESS  Signal: deployment 14e0b565-b4a6-4454-9323-57c3c85a5fe3 failed (6)
+2017-07-06 21:56:32Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w.1]: CREATE_FAILED  Error: resources[1]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 6
+2017-07-06 21:57:06Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerPrePuppet-cz4ufiacq3sg.ControllerPrePuppetMaintenanceModeDeployment]: UPDATE_COMPLETE  state changed
+2017-07-06 21:57:06Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerPrePuppet-cz4ufiacq3sg]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2017-07-06 21:57:07Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ControllerPrePuppet]: UPDATE_COMPLETE  state changed
+2017-07-06 21:57:14Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w.2]: SIGNAL_IN_PROGRESS  Signal: deployment 25a264a3-cad7-4e2e-b397-e98912184c4d failed (6)
+2017-07-06 21:57:14Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w.2]: CREATE_FAILED  Error: resources[2]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 6
+2017-07-06 21:57:16Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w.0]: SIGNAL_IN_PROGRESS  Signal: deployment 93b3ed89-99cc-43d4-86a0-61ac9fc83696 failed (6)
+2017-07-06 21:57:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w.0]: CREATE_FAILED  Error: resources[0]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 6
+2017-07-06 21:57:17Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7-ControllerDeployment_Step1-z5ctihq5is3w]: UPDATE_FAILED  Error: resources[1]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 6
+2017-07-06 21:57:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7.ControllerDeployment_Step1]: UPDATE_FAILED  resources.ControllerDeployment_Step1: Error: resources[1]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 6
+2017-07-06 21:57:18Z [overcloud-AllNodesDeploySteps-cyewg6rgvix7]: UPDATE_FAILED  resources.ControllerDeployment_Step1: Error: resources[1]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 6
+2017-07-06 21:57:19Z [AllNodesDeploySteps]: UPDATE_FAILED  resources.AllNodesDeploySteps: resources.ControllerDeployment_Step1: Error: resources[1]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 6
+2017-07-06 21:57:19Z [overcloud]: UPDATE_FAILED  resources.AllNodesDeploySteps: resources.ControllerDeployment_Step1: Error: resources[1]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 6
+
+ Stack overcloud UPDATE_FAILED 
+

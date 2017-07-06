@@ -1,4 +1,4 @@
 parameter_defaults:
-  CloudName: os-horizon.cs.wichita.edu
+  CloudName: openstack.cs.wichita.edu
   CloudDomain: cs.wichita.edu
   DnsServers: ["156.26.250.22","156.26.10.21"]

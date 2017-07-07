@@ -53,7 +53,7 @@ parameter_defaults:
   BondInterfaceOvsOptions: "mode=4 lacp_rate=1 updelay=1000 miimon=100"
   #This should be commented out unless updating network configs
   #Be very careful with this
-  #NetworkDeploymentActions: ['CREATE','UPDATE']
+  NetworkDeploymentActions: ['CREATE','UPDATE']
   ServiceNetMap:
     ApacheNetwork: internal_api
     NeutronTenantNetwork: tenant

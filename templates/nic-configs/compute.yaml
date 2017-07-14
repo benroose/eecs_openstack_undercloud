@@ -127,15 +127,15 @@ resources:
               type: ovs_bridge
               name: {get_input: bridge_name}
               use_dhcp: false
-              defroute: true
+              defroute: false
               dns_servers: {get_param: DnsServers}
               addresses:
                 -
                   ip_netmask: {get_param: ManagementIpSubnet}
-              routes:
-                -
-                  default: true
-                  next_hop: {get_param: ManagementInterfaceDefaultRoute}
+              #routes:
+              #  -
+              #    default: true
+              #    next_hop: {get_param: ManagementInterfaceDefaultRoute}
               members:
                 -
                   type: linux_bond
@@ -149,6 +149,20 @@ resources:
                     -
                       type: interface
                       name: ens2f1
+                -
+                  type: vlan
+                  device: bond0
+                  vlan_id: {get_param: ExternalNetworkVlanID}
+                  use_dhcp: false
+                  defroute: true
+                  addresses:
+                    -
+                      ip_netmask: {get_param: ExternalIpSubnet}
+                  routes:
+                    -
+                      ip_netmask: 0.0.0.0/0
+                      default: true
+                      next_hop: {get_param: ExternalInterfaceDefaultRoute}
                 -
                   type: vlan
                   device: bond0

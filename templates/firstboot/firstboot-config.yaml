@@ -5,15 +5,13 @@ resources:
     type: OS::Heat::MultipartMime
     properties:
       parts:
-      - config: {get_resource: repo_config}
+      - config: {get_resource: firstboot}
 
-  repo_config:
+  firstboot:
     type: OS::Heat::SoftwareConfig
     properties:
-      config: |
-        #!/bin/bash
-        sleep 10
-        echo "redhat" | passwd root --stdin
+      config: {get_file: firstboot.sh}
+
 outputs:
   OS::stack_id:
     value: {get_resource: userdata}

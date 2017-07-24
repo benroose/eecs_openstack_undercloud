@@ -35,9 +35,10 @@ sed -i "s/\(export OS_PASSWORD=\).*/\1${password}/" ${user}rc
 #Switch to the new operator
 source ~/${user}rc
 
+# REMOVED BY BEN: GOOD FOR TESTING BUT TOO DANGEROUS IN THE REAL WORLD
 #Add ICMP and SSH incoming rules to the default security group in operators tenant
-nova secgroup-add-rule default icmp -1 -1 0.0.0.0/0
-nova secgroup-add-rule default tcp 22 22 0.0.0.0/0
+#nova secgroup-add-rule default icmp -1 -1 0.0.0.0/0
+#nova secgroup-add-rule default tcp 22 22 0.0.0.0/0
 
 #Create a temp public key file
 echo $keypairPubkey > /tmp/${keypairName}.pub
@@ -45,10 +46,10 @@ echo $keypairPubkey > /tmp/${keypairName}.pub
 nova keypair-add --pub-key /tmp/${keypairName}.pub $keypairName
 
 #Download the cirros test image
-curl -o /tmp/cirros.qcow2 http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img
+#curl -o /tmp/cirros.qcow2 http://download.cirros-cloud.net/0.3.4/cirros-0.3.4-x86_64-disk.img
 #Upload the cirros test image to glance and share publicly
 glance image-create --name cirros --disk-format qcow2 \
-  --container-format bare --visibility public --file /tmp/cirros.qcow2
+  --container-format bare --is-public true --file /tmp/cirros.qcow2
 
 #Create a base flavor for use later
 openstack flavor create --id 1 --ram 512 --disk 1 --vcpus 1 --public m1.tiny
@@ -77,3 +78,10 @@ neutron router-create router-$tenantNetwork
 neutron router-interface-add router-$tenantNetwork ${tenantNetwork}-sub
 #Set the external gateway on the new router
 neutron router-gateway-set router-$tenantNetwork $externalNetwork
+
+##########################################################
+# BEN ADDITIONS FOR IF OVERCLOUD HAS TO EVER BE REDEPLOYED
+##########################################################
+
+# Set sane project defaults
+neutron quota-update --floatingip 10
